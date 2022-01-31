@@ -3,6 +3,9 @@ Class for SQL databases and prepare statements generation. Seems to be safe.
 
 WARNING! Code needs to be refactored and also contains var_dumps, only for educational purposes.
 
+For test you can work with commented code in the end of file.
+There is database tables creation, inserts and some other basic things.
+
 How to use:
 
 1.Create object of this class.
