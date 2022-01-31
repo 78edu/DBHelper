@@ -2,7 +2,7 @@
 Class for SQL databases and prepared statements generation. Seems to be safe.
 Unsafe only [[xxxxxx]] labels, because prepared statements isn't supports sql names (tables, fields).
 There is at least PDO::quote method to make [[xxxxxx]] more safe, it said to be theoretically safe in php docs.
-I'm using it only for whitelist values, so there is no test for vulnerability of [[xxxxxx]] labels, but {{{xxxxxx}}} works safe.
+I'm using it only for whitelist values, so there is no test for vulnerability of [[xxxxxx]] labels, but {{xxxxxx}} works safe.
 
 WARNING! Code needs to be refactored and also contains var_dumps, only for educational purposes.
 Also, there is only russian comments.
