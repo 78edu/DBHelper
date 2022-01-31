@@ -3,12 +3,15 @@ Class for SQL databases and prepared statements generation. Seems to be safe.
 Unsafe only [[xxxxxx]] labels, because prepared statements isn't supports sql names (tables, fields).
 There is at least PDO::quote method to make [[xxxxxx]] more safe, it said to be theoretically safe in php docs.
 I'm using it only for whitelist values, so there is no test for vulnerability of [[xxxxxx]] labels, but {{xxxxxx}} works safe.
+It also works with LIMIT, OFFSET and other parameters.
+You can just write your query and replace single values or multiple columns with one placeholder.
 
 WARNING! Code needs to be refactored and also contains var_dumps, only for educational purposes.
 Also, there is only russian comments.
 
 For test you can work with commented code in the end of file.
 There is database tables creation, inserts and some other basic things.
+
 
 How to use:
 
